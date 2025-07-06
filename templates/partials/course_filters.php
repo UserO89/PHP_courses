@@ -25,7 +25,7 @@
                     value="<?= htmlspecialchars($_GET['max_price'] ?? '') ?>">
             </div>
             <div class="mb-3">
-                <label for="durationFilter" class="form-label">Max Duration (hours)</label>
+                <label for="durationFilter" class="form-label">Max Duration (hours)</label> 
                 <input type="number" class="form-control" id="durationFilter" name="max_duration" 
                     value="<?= htmlspecialchars($_GET['max_duration'] ?? '') ?>">
             </div>

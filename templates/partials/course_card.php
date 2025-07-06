@@ -1,7 +1,7 @@
 <div class="col-md-4 mb-4 d-flex align-items-stretch">
     <div class="card h-100 position-relative">
         <a href="<?= BASE_PATH ?>/templates/course.php?id=<?= htmlspecialchars($course['id']) ?>">
-            <img src="<?= htmlspecialchars($course['image_url'] ?: BASE_PATH . '/assets/img/placeholder.jpg') ?>"
+            <img src="<?= htmlspecialchars($course['image_url'] ?: BASE_PATH . '/assets/img/placeholder.png') ?>"
                  class="card-img-top"
                  alt="<?= htmlspecialchars($course['title']) ?>">
         </a>
